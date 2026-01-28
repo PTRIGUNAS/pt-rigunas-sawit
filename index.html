@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PT RIGUNAS</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+       
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- My Style -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <!-- AlpineJS -->
+   <script defer src=""></script>
+    
+ <body> 
+    <!-- Navbar Start -->
+    <nav class="navbar">
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+
+        <a href="#contact">Map</a>
+      </div>
+
+
+<!-- Search Form -->
+<div class="search-form" id="search-form">
+  <input type="search" id="search-box" placeholder="search here...">
+  <label for="search-box"><i data-feather="search"></i></label>
+</div>
+
+
+    </nav>
+    <!-- Navbar end-->
+     
+
+    <!-- Hero Section Start -->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>Produk perusahaan <span></span></h1>
+
+      </main>
+    </section>
+    <!-- Hero Section end -->
+
+    <!--Struktur organisasi star-->
+    <section class="org-chart">
+  <h2>Struktur Organisasi</h2>
+
+  <ul class="tree">
+    <li>
+      <div class="box">Mill Manager</div>
+      <ul>
+        <li>
+          <div class="box">Assisten Maintenance</div>
+          <ul>
+            <li>
+              <div class="box">Mandor Bengkel</div>
+              <div class="box">Mekanik Bengkel</div>
+            </li>
+            <li>
+              <div class="box">KA Listrik</div>
+              <div class="box">Mekanik Listrik</div>
+            </li>
+          </ul>
+        </li>
+
+        <li>
+          <div class="box">KTU</div>
+          <ul>
+            <li><div class="box">KA Pembukuan</div></li>
+            <li><div class="box">Krani Produksi</div></li>
+            <li><div class="box">Krani Personalia</div></li>
+            <li><div class="box">KA Gudang</div></li>
+            <li><div class="box">Krani Timbangan</div></li>
+            <li><div class="box">Mudim</div></li>
+            <li><div class="box">TK Kebun</div></li>
+            <li>
+              <div class="box">DANRU</div>
+              <div class="box">Keamanan</div>
+            </li>
+          </ul>
+        </li>
+
+        <li>
+          <div class="box">Assisten Proses 1</div>
+          <ul>
+            <li>
+              <div class="box">Mandor Proses 1</div>
+              <div class="box">Operator Proses</div>
+            </li>
+          </ul>
+        </li>
+
+        <li>
+          <div class="box">Assisten Proses 2</div>
+          <ul>
+            <li>
+              <div class="box">Mandor Proses 2</div>
+              <div class="box">Operator Proses</div>
+            </li>
+          </ul>
+        </li>
+
+        <li>
+          <div class="box">Assisten Operasional</div>
+          <ul>
+            <li>
+              <div class="box">Mandor Sortasi</div>
+              <div class="box">Anggota Sortasi</div>
+              <div class="box">Petugas Limbah</div>
+            </li>
+          </ul>
+        </li>
+
+        <li>
+          <div class="box">Koordinator QC</div>
+          <ul>
+            <li>
+              <div class="box">KA Laboratorium</div>
+              <div class="box">Analis</div>
+            </li>
+          </ul>
+        </li>
+
+      </ul>
+    </li>
+  </ul>
+</section>
+
+    <!--Struktur organisasi end-->
+
+  <!-- Alur Proses Produksi Start -->
+<section class="flow-section">
+  <h2 class="section-title">Alur Proses Produksi Pabrik Kelapa Sawit</h2>
+
+  <div class="flow-container vertical">
+
+    <!-- Alur utama -->
+    <div class="flow-item">
+      <div class="flow-box">Pos Security</div>
+      <p class="flow-desc">Pemeriksaan dan pengamanan kendaraan TBS yang masuk ke area pabrik.</p>
+    </div>
+
+    <span class="arrow">↓</span>
+
+    <div class="flow-item">
+      <div class="flow-box">Timbangan</div>
+      <p class="flow-desc">Penimbangan berat TBS untuk pencatatan dan pengendalian produksi.</p>
+    </div>
+
+    <span class="arrow">↓</span>
+
+    <div class="flow-item">
+      <div class="flow-box">Sortasi</div>
+      <p class="flow-desc">
+        Pemilahan Tandan Buah Segar (TBS) berdasarkan kualitas dan tingkat kematangan.
+      </p>
+    </div>
+
+    <span class="arrow">↓</span>
+
+    <div class="flow-item">
+      <div class="flow-box">Loading Ramp</div>
+      <p class="flow-desc">
+        Tempat penampungan sementara TBS sebelum masuk ke proses perebusan.
+      </p>
+    </div>
+
+    <span class="arrow">↓</span>
+
+    <div class="flow-item">
+      <div class="flow-box">Sterilizer (Perebusan)</div>
+      <p class="flow-desc">
+        Proses perebusan TBS menggunakan uap panas untuk menghentikan aktivitas enzim
+        dan mempermudah pelepasan buah.
+      </p>
+    </div>
+
+    <span class="arrow">↓</span>
+
+    <div class="flow-item">
+      <div class="flow-box">Tippler</div>
+      <p class="flow-desc">
+        Unit untuk menumpahkan TBS yang telah direbus ke jalur proses selanjutnya.
+      </p>
+    </div>
+
+    <!-- Percabangan -->
+    <div class="branch-container">
+
+      <!-- Cabang 1 -->
+      <div class="branch">
+        <div class="flow-box">Press</div>
+        <p class="flow-desc">
+          Proses pengepresan brondolan untuk menghasilkan minyak dan hasil samping.
+        </p>
+
+        <ul class="result-list">
+          <li>Kernel (Inti Sawit)</li>
+          <li>Bungkil Kernel</li>
+          <li>KCP</li>
+          <li>PKE</li>
+          <li>CPKO</li>
+          <li>Stok PKS Cangkang</li>
+          <li>KLAFIKASIKAN</li>
+          <li>CPO → BST (Bulk Storage Tank)</li>
+          <li>IPAL → LA</li>
+        </ul>
+      </div>
+
+      <!-- Cabang 2 -->
+      <div class="branch">
+        <div class="flow-box">Bunch Press</div>
+        <p class="flow-desc">
+          Proses pengepresan janjang kosong untuk mengurangi kadar air.
+        </p>
+
+        <ul class="result-list">
+          <li>JUICE BUNCH PRESS</li>
+          <li>Janjang Kosong Sawit</li>
+        </ul>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- Alur Proses Produksi End -->
+
+
+     <!-- Produk yang dihasilkan start -->
+<section class="product-section">
+  <section class="product-section">
+  <h2 class="section-title">Produk yang Dihasilkan</h2>
+
+  <div class="product-grid">
+    ...
+  </div>
+</section>
+
+  <div class="product-grid">
+    <div class="product-box">
+      <h3>Crude Palm Oil (CPO)</h3>
+      <p>
+        Crude Palm Oil (CPO) adalah minyak kelapa sawit mentah yang dihasilkan dari
+        proses pengepresan daging buah sawit. CPO merupakan produk utama pabrik
+        yang digunakan sebagai bahan baku industri minyak goreng, margarin,
+        kosmetik, dan biodiesel.
+      </p>
+    </div>
+
+    <div class="product-box">
+      <h3>Kernel (Inti Sawit)</h3>
+      <p>
+        Kernel atau inti sawit adalah biji sawit yang dipisahkan setelah proses
+        pengolahan buah. Kernel menjadi bahan baku utama untuk menghasilkan
+        minyak inti sawit pada tahap pengolahan selanjutnya.
+      </p>
+    </div>
+
+    <div class="product-box">
+      <h3>Crude Palm Kernel Oil (CPKO)</h3>
+      <p>
+        Crude Palm Kernel Oil (CPKO) adalah minyak mentah yang dihasilkan dari
+        pengolahan kernel sawit. CPKO banyak digunakan dalam industri kosmetik,
+        sabun, dan farmasi karena kandungan asam lemaknya.
+      </p>
+    </div>
+
+    <div class="product-box">
+      <h3>Palm Kernel Expeller (PKE)</h3>
+      <p>
+        Palm Kernel Expeller (PKE) atau bungkil sawit merupakan sisa hasil
+        pengolahan kernel setelah minyaknya diambil. PKE umumnya dimanfaatkan
+        sebagai bahan pakan ternak karena kandungan serat dan proteinnya.
+      </p>
+    </div>
+  </div>
+</section>
+<!-- Produk yang dihasilkan end -->
+
+<!--yang di pisahkan Star-->
+
+<section class="product-section">
+  <div class="product-grid">
+    ...
+  </div>
+</section>
+
+<!--yang di pisahkan End-->
+
+    <!-- About Section -->
+
+    <section id="about" class="about">
+      <h2><span>Security</span></h2>
+      <div class="row">
+        <div class="about-img">
+          <img src="img/15.jpeg.jpeg" alt="Tentang Kami" />
+        </div>
+        <div class="content">
+           <h3>Sistem Keamanan Area Pabrik</h3>
+         <p>
+           Keamanan di lingkungan PT. RIGUNAS AGRI UTAMA dijaga melalui sistem pengawasan
+            yang terstruktur untuk memastikan seluruh aktivitas operasional berjalan dengan
+           aman dan tertib.
+         </p>
+        <p>
+          Petugas keamanan bertugas melakukan pengawasan akses keluar masuk area pabrik,
+          menjaga aset perusahaan, serta memastikan keselamatan karyawan dan tamu sesuai
+         dengan prosedur keamanan yang telah ditetapkan.
+      </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <h2>Timbangan</h2>
+      <div class="row">
+        <div class="about-img">
+          <img src="img/16.jpeg (2).jpeg" alt="Tentang Kami" />
+        </div>
+        <div class="content">
+         <h3>Proses Penimbangan Kendaraan</h3>
+      <p>
+        Timbangan digunakan untuk mengukur berat kendaraan yang masuk dan keluar
+        dari area pabrik. Setiap kendaraan yang membawa muatan wajib melalui proses
+        penimbangan awal sebelum kegiatan bongkar atau muat dilakukan.
+      </p>
+        </div>
+      </div>
+    </section>
+
+     <section class="products" id="products">
+  <div class="mesin-container"></div>
+  <h2>Sortasi</h2>
+
+  <div class="row">
+
+    <div class="products-card">
+      <div class="products-icons">
+        <img src="img/10.jpeg.jpg" alt="">
+      </div>
+      <h3>Dura</h3>
+      <p>Dura adalah salah satu jenis utama kelapa sawit yang dikenal dengan cangkang sangat tebal dan daging buah (mesocarp) lebih tipis, sehingga rendemen minyaknya rendah (14-16%). Buahnya lebih besar dan bulat, namun menghasilkan minyak lebih sedikit dibanding Tenera.</p>
+    </div>
+
+    <div class="products-card">
+      <div class="products-icons">
+        <img src="img/11.jpeg.jpg" alt="">
+      </div>
+      <h3>Tenera</h3>
+      <p>
+        Tenera adalah hasil persilangan Dura x Pisifera dan merupakan jenis kelapa sawit paling produktif untuk kebun komersial. Cangkangnya lebih tipis dari Dura, namun mesocarp-nya tebal sehingga rendemen minyak tinggi (22-24%). Buahnya sedang-besar dengan warna brondolan cenderung jingga kemerahan.
+
+        Ciri utama Tenera adalah cangkang tipis + cincin serat (fibrous ring) yang jelas terlihat saat dibelah.
+      </p>
+
+    </div>
+
+    <div class="products-card">
+      <div class="products-icons">
+        <img src="img/13.jpeg.jpg" alt="">
+      </div>
+      <h3>Pisifera</h3>
+      <p>
+       Sawit Pisifera merupakan jenis kelapa sawit tanpa cangkang dengan daging buah sangat tipis. 
+       Jenis ini tidak digunakan untuk produksi minyak, melainkan sebagai induk jantan dalam 
+       persilangan untuk menghasilkan sawit Tenera yang berkualitas tinggi.
+       </p>
+    </div>
+</section>
+
+<section id="about" class="about">
+      <h2>Loading Ramp</h2>
+      <div class="row">
+        <div class="about-img">
+          <img src="img/26.jpeg (2).jpeg" alt="Tentang Kami" />
+        </div>
+        <div class="content">
+          <h3>Tempat Penampungan Sementara Tandan Buah Segar (TBS)</h3>
+      <p>
+        Loading ramp berfungsi sebagai tempat penampungan sementara Tandan Buah
+        Segar (TBS) yang diterima dari luar area pabrik sebelum dilakukan proses
+        pengolahan lebih lanjut.
+      </p>
+      <p>
+        Pada area ini, TBS dari kendaraan pengangkut diatur dan dikendalikan
+        agar aliran bahan baku tetap lancar serta kualitas TBS tetap terjaga
+        sebelum masuk ke tahap produksi.
+      </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="menu" class="menu">
+      <h2>Sterilizer (Perebusan)</h2>
+      <div class="row">
+        <div class="about-img">
+          <img src="img/31.jpeg" alt="" />
+        </div>
+        <div class="content">
+          <h3>Proses Perebusan Tandan Buah Segar (TBS)</h3>
+      <p>
+        Proses sterilizer merupakan tahap perebusan Tandan Buah Segar (TBS)
+        menggunakan uap panas bertekanan yang dihasilkan dari boiler. Proses ini
+        bertujuan untuk menghentikan aktivitas enzim serta mempermudah pemisahan
+        buah dari tandannya.
+      </p>
+      <p>
+        Selain itu, proses perebusan berperan dalam meningkatkan efisiensi
+        pengepresan serta menjaga kualitas minyak yang dihasilkan sebelum
+        memasuki tahap pengolahan selanjutnya.
+        </div>
+      </div>
+    </section>
+    
+    <section id="menu" class="menu">
+      <h2>Tippler</h2>
+      <div class="row">
+        <div class="about-img">
+          <img src="img/29.jpeg" alt="" />
+        </div>
+        <div class="content">
+          <h3>Proses Penuangan Tandan Buah Segar (TBS)</h3>
+    <p>
+      Tippler merupakan unit yang berfungsi untuk penuangan Tandan Buah Segar
+      (TBS) yang telah melalui proses perebusan dari lori ke dalam sistem
+      pengolahan berikutnya secara mekanis.
+    </p>
+    <p>
+      Proses ini bertujuan untuk mempermudah pemindahan TBS ke stasiun
+      perontokan (thresher) sehingga pemisahan buah dari tandannya dapat
+      berlangsung lebih efektif dan efisien.
+        </div>
+      </div>
+    </section>
+
+    <section id="menu" class="menu">
+      <h2><span>Unit</span> Thresher </h2>
+      <div class="row">
+        <div class="about-img">
+          <img src="img/menu-kami.jpeg.jpg" alt="" />
+        </div>
+        <div class="content">
+          <h3>Thresher Line 1-3</h3>
+          <p>
+              Mesin thresher berfungsi untuk memisahkan brondolan dari tandan kosong 
+              sebelum masuk ke proses selanjutnya. Unit ini bekerja secara optimal 
+             untuk memastikan pemisahan berlangsung efisien dan stabil.
+          </p>
+          <p>
+              Tersedia tiga unit tresher yang beroperasi secara terintegrasi untuk 
+               menjaga kelancaran produksi di pabrik kelapa sawit.
+           </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="menu" class="menu">
+      <h2><span>Bunch</span> Press </h2>
+      <div class="row">
+        <div class="about-img">
+          <img src="img/1.jpeg.jpg" alt="" />
+        </div>
+        <div class="content">
+           <h3>Fungsi dan Proses Bunch Press</h3>
+      <p>
+        Bunch Press adalah stasiun yang berfungsi untuk mengekstraksi minyak
+        yang masih tersisa pada tandan kosong (EFB) setelah proses perontokan
+        dan perebusan. Melalui tekanan mekanis yang kuat, sisa minyak yang
+        menempel pada serat dapat dipisahkan secara optimal.
+      </p>
+      <p>
+        Proses ini membantu meningkatkan perolehan minyak secara keseluruhan
+        dan memastikan tandan kosong yang keluar lebih kering serta siap untuk
+        diproses lebih lanjut atau dibawa ke area pemanfaatan limbah. Dengan
+        operasi yang stabil dan terkontrol, Bunch Press mendukung efisiensi
+        produksi dan menjaga kualitas minyak sawit di pabrik.
+      </p>
+        </div>
+      </div>
+    </section>
+
+     <section id="menu" class="menu">
+      <h2>Pres</h2>
+      <div class="row">
+        <div class="about-img">
+          <img src="img/20.jpeg (2).jpeg" alt="" />
+        </div>
+        <div class="content">
+           <h3>Proses Pengepresan Buah Kelapa Sawit</h3>
+      <p>
+        Proses pres merupakan tahapan pengolahan yang bertujuan untuk mengekstraksi
+        minyak dari daging buah kelapa sawit setelah melalui proses perebusan.
+        Pada tahap ini, buah sawit diperas menggunakan mesin press untuk
+        menghasilkan minyak mentah (Crude Palm Oil/CPO).
+      </p>
+      <p>
+        Hasil dari proses pres berupa minyak sawit mentah dan ampas press.
+        Minyak selanjutnya dialirkan ke proses pemurnian, sedangkan ampas
+        dimanfaatkan untuk proses lanjutan seperti pemisahan serat dan biji
+        (nut) guna mendukung efisiensi produksi.
+         </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="menu" class="menu">
+      <h2>Kernel</h2>
+      <div class="row">
+        <div class="about-img">
+          <img src="img/19.jpeg (2).jpeg" alt="" />
+        </div>
+        <div class="content">
+         <h3>Pengolahan dan Pemisahan Kernel</h3>
+    <p>
+      Kernel merupakan inti sawit yang diperoleh dari proses lanjutan setelah
+      pemisahan biji (nut) dari serat. Proses ini dilakukan untuk mendapatkan
+      kernel yang bersih dan siap untuk disimpan atau diproses lebih lanjut.
+    </p>
+    <p>
+      Pengolahan kernel dilakukan melalui beberapa tahapan, seperti pemecahan
+      nut dan pemisahan kernel dari cangkang, guna memastikan kualitas kernel
+      tetap terjaga sebelum didistribusikan atau dimanfaatkan.
+           </p>
+        </div>
+      </div>
+    </section>
+    
+     <section id="menu" class="menu">
+      <h2><span>Pengolahan</span> Cangkang Sawit</h2>
+      <div class="row">
+        <div class="about-img">
+          <img src="img/7.jpeg (2).jpeg" alt="" />
+        </div>
+        <div class="content">
+         <h3>Proses Penyimpanan dan Pengelolaan Cangkang Sawit</h3>
+        <p>
+           Cangkang sawit yang dihasilkan dari proses pengolahan pabrik dipisahkan dan
+           disimpan berdasarkan kondisi dan peruntukannya. Cangkang kering dimanfaatkan
+           sebagai bahan bakar biomassa untuk mendukung kebutuhan energi operasional
+           pabrik.
+         </p>
+           <p>
+         Sementara itu, cangkang sawit dalam kondisi basah dikumpulkan secara terpisah
+         untuk tujuan komersial atau dijual kepada pihak luar. Pengelolaan ini dilakukan
+         agar pemanfaatan cangkang sawit dapat berjalan optimal serta mendukung efisiensi
+         dan kebersihan area operasional pabrik.
+        </p>
+        </div>
+      </div>
+    </section>
+
+     <section id="menu" class="menu">
+      <h2>KlariFikasi </h2>
+      <div class="row">
+        <div class="about-img">
+          <img src="img/30.jpeg" alt="" />
+        </div>
+        <div class="content">
+          <h3>Proses Pemurnian Minyak Sawit</h3>
+      <p>
+        Klarifikasi merupakan proses pemisahan minyak sawit dari air, kotoran,
+        dan sisa serat hasil pengepresan. Pada tahap ini, minyak dialirkan ke
+        unit klarifikasi untuk dibersihkan sehingga diperoleh minyak dengan
+        kualitas yang lebih baik.
+      </p>
+      <p>
+        Proses klarifikasi dilakukan secara terkontrol menggunakan peralatan
+        khusus agar minyak yang dihasilkan memenuhi standar mutu sebelum
+        dialirkan ke tangki penyimpanan CPO..
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <h2>Boiler</h2>
+      <div class="row">
+        <div class="about-img">
+          <img src="img/21.jpeg (2).jpeg" alt="Tentang Kami" />
+        </div>
+        <div class="content">
+          <h3>Proses Pembangkitan Uap</h3>
+      <p>
+        Boiler merupakan unit yang berfungsi untuk menghasilkan uap panas yang
+        digunakan dalam berbagai proses pengolahan di pabrik kelapa sawit, seperti
+        perebusan dan pengeringan.
+      </p>
+      <p>
+        Bahan bakar boiler umumnya berasal dari limbah padat pabrik, seperti serat
+        dan cangkang sawit. Pengoperasian boiler dilakukan secara terkontrol untuk
+        memastikan pasokan uap tetap stabil serta mendukung kelancaran proses
+        produksi.
+      </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <h2>Engine Room</h2>
+      <div class="row">
+        <div class="about-img">
+          <img src="img/23.jpeg.jpeg" alt="Tentang Kami" />
+        </div>
+        <div class="content">
+          <h3>Ruang Mesin dan Pembangkit Tenaga</h3>
+    <p>
+      Engine room merupakan area yang berfungsi sebagai tempat mesin-mesin
+      pembangkit tenaga listrik yang digunakan untuk menunjang operasional
+      pabrik kelapa sawit.
+    </p>
+    <p>
+      Pada ruang ini, mesin diesel atau generator dioperasikan dan dipantau
+      secara berkala untuk memastikan pasokan listrik tetap stabil serta
+      mendukung kelancaran seluruh proses produksi.
+    </p>
+      </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <h2>KCP</h2>
+      <div class="row">
+        <div class="about-img">
+          <img src="img/28.jpeg (2).jpeg" alt="Tentang Kami" />
+        </div>
+        <div class="content">
+           <h3>Proses Pengolahan Inti Sawit (Kernel)</h3>
+    <p>
+      KCP (Kernel Crushing Plant) merupakan unit yang berfungsi untuk mengolah
+      inti sawit (kernel) menjadi minyak inti sawit melalui proses pengepresan
+      dan pemurnian.
+    </p>
+    <p>
+      Proses di KCP dilakukan secara terkontrol untuk menghasilkan minyak kernel
+      dengan kualitas yang baik, sedangkan hasil sampingan berupa bungkil
+      dimanfaatkan untuk kebutuhan lain, seperti bahan pakan ternak..
+      </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="menu" class="menu">
+      <h2><span>Gudang</span> Bungkil Sawit (PKE)</h2>
+      <div class="row">
+        <div class="about-img">
+          <img src="img/9.jpeg.jpg" alt="" />
+        </div>
+        <div class="content">
+          <h3>Proses Penyimpanan dan Pemanfaatan PKE</h3>
+          <p>
+         Bungkil sawit atau Palm Kernel Expeller (PKE) merupakan hasil sampingan dari proses
+         pengolahan inti sawit. Material ini disimpan di dalam gudang khusus untuk menjaga
+         kualitas dan mencegah terjadinya kontaminasi.
+         </p>
+         <p>
+         PKE biasanya digunakan sebagai bahan pakan ternak karena memiliki kandungan serat
+         dan protein yang cukup tinggi. Selain itu, bungkil juga dapat dimanfaatkan sebagai
+         bahan campuran pupuk organik di sektor perkebunan. Penyimpanan yang baik sangat
+         penting agar kualitas PKE tetap terjaga sebelum didistribusikan ke pengguna.
+         </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="menu" class="menu">
+      <h2><span>Stasiun </span> Bengkel</h2>
+      <div class="row">
+        <div class="about-img">
+          <img src="img/3.jpeg.jpg" alt="" />
+        </div>
+        <div class="content">
+          <h3>Perawatan & Perbaikan Mesin</h3>
+          <p>
+           Bengkel perawatan berfungsi sebagai pusat perbaikan dan pemeliharaan seluruh 
+           peralatan produksi. Tim maintenance memastikan setiap mesin berada dalam kondisi 
+           optimal agar proses pabrik berjalan aman dan efisien.
+           </p>
+           <p> Dengan dukungan teknisi berpengalaman serta peralatan kerja lengkap, bengkel ini 
+           siap menangani perbaikan rutin maupun penanganan gangguan mendadak.
+          </p>
+      </div>
+    </section>
+
+    <section id="menu" class="menu">
+      <h2><span>Gudang</span> Penyimpanan Material</h2>
+      <div class="row">
+        <div class="about-img">
+          <img src="img/12.jpeg.jpg" alt="" />
+        </div>
+        <div class="content">
+          <h3>Kondisi dan Pengelolaan Gudang Penyimpanan</h3>
+          <p>
+         Gudang ini digunakan sebagai area penyimpanan berbagai material dan peralatan pendukung operasional pabrik. Seluruh barang disusun dan dikelompokkan sesuai jenisnya untuk memudahkan proses pengawasan, pengambilan, serta menjaga kerapian area kerja.
+         </p>
+        <p>
+          Pengelolaan gudang dilakukan dengan memperhatikan aspek keselamatan kerja, kebersihan, dan efisiensi ruang. Penerangan yang memadai serta penataan barang yang teratur bertujuan untuk mendukung kelancaran aktivitas operasional dan mencegah risiko kerusakan maupun kecelakaan kerja.
+        </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="menu" class="menu">
+      <h2>Janjangan Kosong </h2>
+      <div class="row">
+        <div class="about-img">
+          <img src="img/8.jpeg.jpg" alt="" />
+        </div>
+        <div class="content">
+          <h3>Proses Pengolahan dan Pemanfaatan Janjangan Kosong</h3>
+      <p>
+        Janjangan kosong atau tandan kosong kelapa sawit (Jangkos) merupakan hasil
+        sampingan dari proses pengolahan buah sawit yang dihasilkan setelah
+        pemisahan buah di pabrik. Material ini dikumpulkan di area khusus sebelum
+        dimanfaatkan lebih lanjut.
+      </p>
+      <p>
+        Janjangan kosong umumnya dimanfaatkan sebagai pupuk organik oleh pihak
+        perkebunan. Penggunaannya membantu meningkatkan kesuburan tanah, menjaga
+        kelembapan lahan, serta mendukung pertumbuhan tanaman kelapa sawit.
+         </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <h2><span>Proses</span> pemuatan CPO</h2>
+      <div class="row">
+        <div class="about-img">
+          <img src="img/tentang-kami.jpeg.jpg" alt="Tentang Kami" />
+        </div>
+        <div class="content">
+          <h3>Penyimpanan dan pemuatan CPO</h3>
+           <p>
+        CPO (Crude Palm Oil) disimpan di dalam storage tank berkapasitas besar untuk 
+        menjaga kualitas minyak sebelum didistribusikan. Proses penyimpanan dilakukan 
+        dengan sistem yang aman dan terkontrol guna memastikan minyak tetap sesuai standar.
+      </p>
+      <p>
+        Truk tangki kemudian melakukan pengambilan CPO melalui jalur pengisian khusus 
+        yang telah disiapkan di area loading. Setiap proses pengisian dilakukan secara 
+        teliti dan dicatat untuk memastikan kuantitas serta kualitas CPO tetap terjaga 
+        hingga sampai ke tujuan.
+      </p>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="menu" class="menu">
+      <h2><span>Quality Control</span> USB</h2>
+      <div class="row">
+        <div class="about-img">
+          <img src="img/2.jpeg.jpg" alt="" />
+        </div>
+        <div class="content">
+          <h3>Quality Check USB</h3>
+          <p>
+         Proses pemeriksaan USB (Un-Stripped Bunch) dilakukan untuk memastikan tidak ada
+        jangkos yang masih lengket brondolan setelah melewati mesin thresher. Tahapan ini 
+        penting untuk menjaga efisiensi pemisahan dan mengurangi potensi kehilangan minyak.
+        </p>
+       <p>
+       Tim melakukan pengecekan langsung di lapangan untuk memastikan kualitas proses
+      perontokan tetap optimal dan sesuai standar operasional pabrik kelapa sawit.
+      </p>
+        </div>
+      </div>
+    </section>
+
+      <section id="menu" class="menu">
+        <h2><span>Lab Kimia</span> Pabrik</h2>
+        <div class="row">
+          <div class="about-img">
+            <img src="img/5.jp4g.jpg" alt="" />
+          </div>
+          <div class="content">
+            <h3>Analisa Minyak & Kadar Air</h3>
+            <p>
+            Laboratorium kimia berfungsi untuk melakukan analisa kualitas minyak, termasuk 
+            pengujian kadar air, FFA, dan parameter mutu lainnya. Pemeriksaan ini penting 
+            untuk memastikan produksi tetap sesuai standar dan menjaga stabilitas kualitas CPO.
+          </p>
+          <p>
+            Setiap sampel diuji secara teliti oleh tim laboratorium untuk mendukung proses 
+            pengendalian mutu di seluruh lini produksi pabrik kelapa sawit.
+          </p>
+
+          </div>
+        </div>
+      </section>
+
+    <section id="menu" class="menu">
+      <h2><span>Peralatan Pemadam </span> Kebakaran </h2>
+      <div class="row">
+        <div class="about-img">
+          <img src="img/4.jpeg.jpg" alt="" />
+        </div>
+        <div class="content">
+          <h3>APAR untuk Area Operasional Pabrik</h3>
+          <p>
+           APAR tersedia dan terawat secara rutin demi mendukung standar keselamatan kerja serta meminimalkan risiko kebakaran di area produksi.
+          </p>
+          <p></p>
+        </div>
+      </div>
+    </section>
+  
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <h2><span>Map</span> Kami</h2>
+      <p>Lokasi PT RIGUNAS.</p>
+      
+      <div class="row">
+        <iframe
+          width="500"
+          height="500"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4118.558092919788!2d102.45328857511676!3d-1.3461586356947823!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e2ec7ef312cd7d7%3A0x1e632cbcaa6644aa!2sPt.rigunas%20Agri%20Utama!5e1!3m2!1sid!2sid!4v1761314603196!5m2!1sid!2sid"
+          allowfullscreen
+          loading="lazy"
+        ></iframe>
+        
+
+<!-- Footer Start -->
+<html lang="id">  
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Footer Sosial Media</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <footer>
+      <div class="social">
+        <div class="item">
+          <a
+            href="https://web.facebook.com/asianagri.almamater"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Kunjungi Facebook"
+            title="Facebook"
+          >
+            <i data-feather="facebook"></i>
+          </a>
+          <p>Facebook</p>
+        </div>
+
+        <div class="item">
+          <a
+            href="https://www.instagram.com/asian.agri?igsh=Z21jcGM2N3Z1MGp3"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Kunjungi Instagram"
+            title="Instagram"
+          >
+            <i data-feather="instagram"></i>
+          </a>
+          <p>Instagram</p>
+        </div>
+
+      <div class="item">
+  <a
+    href="https://www.tiktok.com/@info.pt.asian.agri?is_from_webapp=1&sender_device=pc"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Kunjungi TikTok"
+    title="TikTok"
+  >
+    <i class="fa-brands fa-tiktok"></i>
+  </a>
+  <p>TikTok</p>
+</div>
+
+
+
+        <div class="item">
+          <a href="https://youtu.be/XlE-lTcwetI?si=oS5Wqc7kGOyYEhr8" aria-label="Kunjungi YouTube" title="YouTube">
+            <i data-feather="youtube"></i>
+          </a>
+          <p>YouTube</p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>
+
+
+    <!-- Footer -->
+    <footer>
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        
+        <a href="#contact">Map</a>
+      </div>
+
+      <div class="credit">
+        <p>PT RIGUNAS <a href="#">Agri Utama</a>. ©2025</p>
+      </div>
+    </footer>
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <!-- Footer end-->
+
+    <!-- Feather Icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- My Javascript-->
+    <script src="js/script.js"></script>
+  </body>
+</html>
+
