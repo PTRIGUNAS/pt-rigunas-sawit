@@ -78,6 +78,7 @@ body {
 #hamburger-menu {
   display: none;
 }
+
 /* Struktur Organisasi*/
 .org-chart {
   text-align: center;
@@ -136,15 +137,63 @@ body {
   margin: 5px;
 }
 
+/* =========================
+   STRUKTUR ORGANISASI KECIL
+   ========================= */
+
+.org-chart {
+  padding: 30px 10px;
+  transform: scale(0.85);
+  transform-origin: top center;
+}
+
+/* jarak antar level */
+.org-chart .tree,
+.org-chart .tree ul {
+  padding-top: 10px;
+}
+
+/* jarak antar item */
+.org-chart .tree li {
+  padding: 12px 6px 0;
+}
+
+/* garis */
+.org-chart .tree li::before,
+.org-chart .tree li::after {
+  height: 12px;
+  border-top: 1px solid #000;
+}
+
+.org-chart .tree li::after {
+  border-left: 1px solid #000;
+}
+
+/* garis vertikal ke anak */
+.org-chart .tree ul ul::before {
+  height: 12px;
+  border-left: 1px solid #000;
+}
+
+/* kotak */
+.org-chart .box {
+  font-size: 11px;
+  padding: 4px 8px;
+  border-width: 1px;
+  margin: 3px;
+  border-radius: 3px;
+}
+
+/* ====== ALUR PRODUKSI ====== */
 /* Section utama */
 .flow-section {
-  padding: 40px 20px;
+  padding: 0px 20px;
   text-align: center;
 }
 
 /* Judul */
 .flow-section h2 {
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 /* Container utama (alur vertikal) */
