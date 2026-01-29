@@ -202,24 +202,96 @@
     <div class="branch-container">
 
       <!-- Cabang 1 -->
-      <div class="branch">
-        <div class="flow-box">Press</div>
+      <!-- PRESS -->
+<div class="flow-item">
+  <div class="flow-box">Press</div>
+  <p class="flow-desc">
+    Pengepresan brondolan untuk memisahkan minyak dan ampas.
+  </p>
+
+  <!-- CABANG -->
+  <div class="branch-container">
+
+    <!-- CABANG KERNEL -->
+    <div class="branch">
+      <div class="flow-box small">Kernel</div>
+      <p class="flow-desc">
+        Jalur pengolahan inti sawit dan cangkang.
+      </p>
+
+      <!-- BUNKER KERNEL -->
+      <div class="sub-branch">
+        <div class="flow-box xsmall">Bunker Kernel</div>
         <p class="flow-desc">
-          Proses pengepresan brondolan untuk menghasilkan minyak dan hasil samping.
+          Tempat penampungan sementara inti sawit.
         </p>
 
-        <ul class="result-list">
-          <li>Kernel (Inti Sawit)</li>
-          <li>Bungkil Kernel</li>
-          <li>KCP</li>
-          <li>PKE</li>
-          <li>CPKO</li>
-          <li>Stok PKS Cangkang</li>
-          <li>KLAFIKASIKAN</li>
-          <li>CPO → BST (Bulk Storage Tank)</li>
-          <li>IPAL → LA</li>
-        </ul>
+        <!-- KCL -->
+        <div class="sub-branch">
+          <div class="flow-box xxsmall">KCL</div>
+          <p class="flow-desc">
+            Proses pemecahan inti sawit.
+          </p>
+
+          <!-- OUTPUT KCL -->
+          <div class="sub-branch horizontal">
+            <div class="output-item">
+              <div class="flow-box xxxsmall">CPKO</div>
+              <p class="flow-desc">Minyak inti sawit.</p>
+            </div>
+
+            <div class="output-item">
+              <div class="flow-box xxxsmall">PKE</div>
+              <p class="flow-desc">Ampas inti sawit.</p>
+            </div>
+          </div>
+        </div>
       </div>
+
+      <!-- STOK PILE CANGKANG -->
+      <div class="sub-branch">
+        <div class="flow-box xsmall">Stok Pile Cangkang</div>
+        <p class="flow-desc">
+          Area penyimpanan cangkang sawit.
+        </p>
+      </div>
+    </div>
+
+    <!-- CABANG KLASIFIKASI -->
+    <div class="branch">
+      <div class="flow-box small">Klasifikasi</div>
+      <p class="flow-desc">
+        Pemisahan dan penyaluran minyak serta limbah.
+      </p>
+
+      <!-- CPO -->
+      <div class="sub-branch">
+        <div class="flow-box xsmall">CPO → BST</div>
+        <p class="flow-desc">
+          Penyimpanan minyak sawit mentah.
+        </p>
+      </div>
+
+      <!-- IPAL -->
+      <div class="sub-branch">
+        <div class="flow-box xsmall">IPAL</div>
+        <p class="flow-desc">
+          Pengolahan limbah cair.
+        </p>
+
+        <!-- LA -->
+        <div class="sub-branch">
+          <div class="flow-box xxsmall">LA</div>
+          <p class="flow-desc">
+            Pemanfaatan limbah ke lahan.
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
 
       <!-- Cabang 2 -->
       <div class="branch">
