@@ -83,48 +83,52 @@ body {
    PROFIL PERUSAHAAN
 ================================ */
 .company-profile {
-  padding: 40px 20px;
-  max-width: 900px;
-  margin: 0 auto;
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
 }
 
 .profile-container {
   background: #ffffff;
   border: 2px solid #000;
-  padding: 24px 28px;
+  padding: 36px 44px;
+  max-width: 1000px;
+  width: 100%;
 }
 
 .company-profile h2 {
   text-align: center;
-  font-size: 22px;
-  margin-bottom: 20px;
+  font-size: 26px;
+  margin-bottom: 28px;
   font-weight: 700;
+  letter-spacing: 0.5px;
 }
 
 .company-profile p {
-  font-size: 14px;
-  line-height: 1.7;
+  font-size: 15px;
+  line-height: 1.9;
   text-align: justify;
-  margin-bottom: 14px;
-  color: #000;
+  margin-bottom: 18px;
+  color: #111;
 }
 
 /* Responsive */
 @media (max-width: 768px) {
   .company-profile {
-    padding: 24px 14px;
+    padding: 40px 16px;
   }
 
   .profile-container {
-    padding: 18px;
+    padding: 24px;
   }
 
   .company-profile h2 {
-    font-size: 18px;
+    font-size: 20px;
   }
 
   .company-profile p {
-    font-size: 13px;
+    font-size: 14px;
+    line-height: 1.7;
   }
 }
 
@@ -184,51 +188,6 @@ body {
   background: #fff;
   font-size: 14px;
   margin: 5px;
-}
-
-/* STRUKTUR ORGANISASI KECIL */
-
-.org-chart {
-  padding: 30px 10px;
-  transform: scale(0.85);
-  transform-origin: top center;
-}
-
-/* jarak antar level */
-.org-chart .tree,
-.org-chart .tree ul {
-  padding-top: 10px;
-}
-
-/* jarak antar item */
-.org-chart .tree li {
-  padding: 12px 6px 0;
-}
-
-/* garis */
-.org-chart .tree li::before,
-.org-chart .tree li::after {
-  height: 12px;
-  border-top: 1px solid #000;
-}
-
-.org-chart .tree li::after {
-  border-left: 1px solid #000;
-}
-
-/* garis vertikal ke anak */
-.org-chart .tree ul ul::before {
-  height: 12px;
-  border-left: 1px solid #000;
-}
-
-/* kotak */
-.org-chart .box {
-  font-size: 11px;
-  padding: 4px 8px;
-  border-width: 1px;
-  margin: 3px;
-  border-radius: 3px;
 }
 
 /* ====== ALUR PRODUKSI ====== */
@@ -369,6 +328,68 @@ body {
 .product-box p {
   font-size: 14px;
   line-height: 1.5;
+}
+
+/* ===== SORTASI SECTION ===== */
+.products.sortasi {
+  padding: 80px 10%;
+  background: #000;
+  color: #fff;
+}
+
+.products.sortasi h2 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+/* Layout */
+.products.sortasi .row {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+/* Gambar */
+.products.sortasi .about-img {
+  flex: 1 1 35%;
+  display: flex;
+  justify-content: center;
+}
+
+.products.sortasi .about-img img {
+  width: 100%;
+  max-width: 320px;
+  border-radius: 14px;
+  object-fit: cover;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+}
+
+/* Teks */
+.products.sortasi .content {
+  flex: 1 1 55%;
+}
+
+.products.sortasi .content p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #dcdcdc;
+  text-align: justify;
+  margin-bottom: 18px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .products.sortasi .row {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .products.sortasi .content p {
+    text-align: center;
+  }
 }
 
 /*garis pemisah*/
